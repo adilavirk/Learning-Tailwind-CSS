@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* add custom classes in tailwind css */
+
+@layer utilities {
+  /* to set the height of screen for each section */
+  .section-min-height {
+    min-height: calc(100vh-68px);
+  }
+}
