@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.topbar {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+}
+.social-icons {
+  margin-left: 3rem;
+}
+.social-icons a {
+  color: #343a40;
+  margin-right: 1rem;
+}
+.shipping-message {
+  color: #35a29f;
+}
+.currency-language {
+  margin-right: 4rem;
+}
+.currency {
+  border: none;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.3rem;
+  margin-right: 0.5rem;
+}
+.language {
+  border: none;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.3rem;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #35a29f;
+  padding: 1.4rem;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 3.2rem;
+}
+.search-bar {
+  display: flex;
+  flex-grow: 1;
+  background-color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #343a40;
+  margin: 0 2rem;
+}
+.search-bar input {
+  display: flex;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+.search-bar button {
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.icons {
+  margin-right: 3rem;
+}
+.icons a {
+  color: white;
+  margin-left: 0.5rem;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+}
+.nav-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #343a40;
+  padding: 1rem 0.5rem;
+  font-size: 1.2rem;
+  /* font-size: 18px; */
+  padding: 15px 10px;
+  transition: all ease 0.3s;
+}
+.nav-menu a:hover {
+  color: #35a29f;
+}
+.hero {
+  background-image: url(Images/banner-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  padding: 8rem 2rem;
+}
+.hero-content {
+  color: #f8f9fa;
+  max-width: 1200px;
+  margin: 100px;
+}
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.button {
+  background-color: #35a29f;
+  color: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all ease 0.3s;
+}
+.button:hover {
+  color: #35a29f;
+  background-color: #f8f9fa;
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.product {
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.product img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.product h3 {
+  margin-bottom: 10px;
+}
+.product p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.price {
+  color: #35a29f;
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 100px;
+  padding: 20px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+.col-testimonial {
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+.testimonial img {
+  border-radius: 50%;
+  margin: 20px 0;
+}
+.col-discount {
+  width: 100%;
+  background-image: url(Images/cta-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.cta {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta a {
+  background-color: #f8f9fadd;
+  padding: 40px;
+  border-radius: 10px;
+  color: #343a40;
+  text-decoration: none;
+}
+.cta a h2 {
+  margin: 20px 0;
+}
+.cta-button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.main-footer {
+  background-color: #343a40;
+  padding: 50px 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-menu ul {
+  display: flex;
+}
+.navigation-menu ul li {
+  list-style: none;
+}
+.navigation-menu ul li a {
+  text-decoration: none;
+  color: #f8f9fa;
+  margin-right: 15px;
+}
+.copyright {
+  color: #f8f9fa;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -4,29 +4,29 @@ const MobileNavbar = () => {
   return (
     <section
       id="mobile-menu"
-      className=" md:hidden absolute bg-black w-full text-5xl flex flex-col justify-content-center"
+      className=" md:hidden absolute bg-black w-full text-5xl flex flex-col justify-content-center min-h-screen origin-top animate-open-menu"
     >
       {/* <button className="text-8xl px-6  self-end">&times;</button> */}
       <nav
-        className="flex flex-col min-h-screen py-8 items-center"
+        className="flex flex-col min-h-screen py-8 items-center cursor-pointer"
         aria-label="mobile"
       >
-        <a href="hero" className="text-center hover:opacity-90 w-full py-6">
+        <a href="#hero" className="text-center hover:opacity-90 w-full py-6">
           Home
         </a>
-        <a href="rockets" className="text-center hover:opacity-90 w-full py-6">
+        <a href="#rockets" className="text-center hover:opacity-90 w-full py-6">
           Our Rockets
         </a>
         <a
-          href="testimonials"
+          href="#testimonials"
           className="text-center hover:opacity-90 w-full py-6"
         >
           Testimonials
         </a>
-        <a href="contact" className="text-center hover:opacity-90 w-full py-6">
+        <a href="#contact" className="text-center hover:opacity-90 w-full py-6">
           Contact Us
         </a>
-        <a href="footer" className="text-center hover:opacity-90 w-full py-6">
+        <a href="#footer" className="text-center hover:opacity-90 w-full py-6">
           Legal
         </a>
       </nav>
